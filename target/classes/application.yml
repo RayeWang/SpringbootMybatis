@@ -1,0 +1,25 @@
+
+server:
+  port: 80
+spring:
+  application:
+    name: admin-managee
+  datasource:
+    url: jdbc:mysql://192.168.157.131:3306/springboot
+    username: code
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+          max-active: 20
+          initial-size: 1
+          min-idle: 3
+          max-wait: 60000
+          time-between-eviction-runs-millis: 60000
+          min-evictable-idle-time-millis: 300000
+          test-while-idle: true
+          test-on-borrow: false
+          test-on-return: false
+
+  
+debug: true
