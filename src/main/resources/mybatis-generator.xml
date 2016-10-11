@@ -16,8 +16,8 @@
 	</commentGenerator>
 
 	<jdbcConnection driverClass="com.mysql.jdbc.Driver"
-		connectionURL="jdbc:mysql://192.168.157.131:3306/springboot" userId="code"
-		password="123456">
+		connectionURL="jdbc:mysql://192.168.157.133:3306/springboot" userId="root"
+		password="1993316">
 	</jdbcConnection>
 
 	<javaTypeResolver>

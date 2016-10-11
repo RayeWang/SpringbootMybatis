@@ -1,5 +1,7 @@
 package wang.raye.springboot.server;
 
+import java.util.List;
+
 import wang.raye.springboot.model.User;
 
 /**
@@ -15,4 +17,9 @@ public interface UserServer {
 	 * @return 是否添加成功
 	 */
 	public boolean add(User user);
+	/**
+	 * 查询所有用户
+	 * @return
+	 */
+	public List<User> findAll();
 }
